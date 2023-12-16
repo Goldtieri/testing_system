@@ -1,0 +1,216 @@
+.navigation-menu {
+    -fx-background-color: white;
+    -fx-font-family: System;
+    -fx-font-size: 14px;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: rgba(128, 128, 128, 0.3);
+}
+
+.navigation-menu .button {
+    -fx-background-color: #6841b2;
+    -fx-text-fill: white;
+    -fx-padding: 5px 15px 5px 15px;
+    -fx-background-radius: 5px;
+}
+
+.navigation-menu .button:hover {
+    -fx-background-color: #7e5ab8;
+    -fx-cursor: hand;
+}
+
+.navigation-menu .text-field {
+    -fx-background-color: none;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: black;
+}
+
+.navigation-menu .text-field:focused {
+    -fx-border-width: 0 0 2px 0;
+}
+
+.test-name {
+    -fx-background-radius: 0 0 15px 15px;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 10, 0, 0, 0);
+}
+
+.question-form {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 10, 0, 0, 0);
+}
+
+.test-card {
+    -fx-background-radius: 5px;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 10, 0, 0, 0);
+    -fx-border-width: 1;
+}
+
+
+.test-card .run-button {
+    -fx-font-size: 14px;
+    -fx-background-color: #6841b2;
+    -fx-text-fill: white;
+    -fx-padding: 5px 15px 5px 15px;
+    -fx-background-radius: 5px;
+}
+
+.test-card .run-button:hover {
+    -fx-background-color: #7e5ab8;
+    -fx-cursor: hand;
+}
+
+.test-card .test-name-card {
+    -fx-font-size: 16px;
+}
+
+.submit-button {
+    -fx-background-color: #6841b2;
+    -fx-text-fill: white;
+    -fx-padding: 5px 20px 5px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 0);
+    -fx-background-radius: 5px;
+}
+
+
+.submit-button:hover {
+    -fx-background-color: #7e5ab8;
+    -fx-cursor: hand;
+}
+
+.radio-button {
+    -fx-font-family: System;
+    -fx-font-size: 14px;
+}
+
+.radio-button .radio {
+    -fx-pref-width: 18px;
+    -fx-pref-height: 18px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 2px;
+    -fx-border-color: #323232;
+    -fx-background-color: white;
+    -fx-background-image: null;
+    -fx-cursor: hand;
+}
+
+.radio-button .radio:selected {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+
+.radio-button -radio:armed {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+
+.radio-button -radio:determinate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+
+.radio-button -radio:indeterminate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+
+.radio-button .dot {
+    -fx-background-radius: 0px;
+    -fx-padding: 5px;
+}
+
+.question-form .text-field {
+    -fx-background-color: none;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: black;
+}
+
+.question-form .button {
+    -fx-background-color: gray;
+    -fx-text-fill: white;
+    -fx-padding: 3px 8px 3px 8px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.question-form .button:hover {
+    -fx-background-color: rgba(128, 128, 128, 0.8);
+}
+
+.question-form .connect-button {
+    -fx-font-size: 14px;
+    -fx-background-color: #6841b2;
+    -fx-text-fill: white;
+    -fx-padding: 5px 25px 5px 25px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 0);
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.question-form .connect-button:hover {
+    -fx-background-color: #7e5ab8;
+}
+
+.text-name-input {
+    -fx-background-color: none;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: black;
+}
+
+.add-question-button {
+    -fx-font-size: 14px;
+    -fx-background-color: gray;
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px 5px 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 0);
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.add-question-button:hover {
+    -fx-background-color: rgba(128, 128, 128, 0.8);
+}
+
+.create-button {
+    -fx-font-size: 16px;
+    -fx-background-color: #6841b2;
+    -fx-text-fill: white;
+    -fx-padding: 5px 30px 5px 30px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 0);
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.create-button:hover {
+    -fx-background-color: #7e5ab8;
+}
+
+.result-form {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 0);
+}
+
+.message-label {
+    -fx-font-size: 24px;
+}
+
+.test-name-form {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 10, 0, 0, 0);
+    -fx-border-width: 10px 0 0 0;
+    -fx-border-color: #673ab7;
+}
+
+.delete-button {
+    -fx-background-color: rgba(128, 128, 128, 0.1);
+    -fx-font-size: 14px;
+    -fx-background-radius: 15px;
+    -fx-cursor: hand;
+}
+
+.delete-button:hover {
+    -fx-background-color: rgba(128, 128, 128, 0.5);
+}
